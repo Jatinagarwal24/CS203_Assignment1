@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+    <link href="static/css/style.css" rel="stylesheet">
+</head>
+
+<h2 class="cat">Course Catalog</h2>
+
+<!-- Create a table to display course code and course name -->
+<table class="course-table" style="width: 100%; border-collapse: collapse; background-color: lightskyblue; border: 3px solid black;">
+    <thead>
+        <tr>
+            <th style="border: 3px solid black; padding: 8px;">Course Code</th>
+            <th style="border: 3px solid black; padding: 8px;">Course Name</th>
+            <th style="border: 3px solid black; padding: 8px;">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for course in courses %}
+            <tr>
+                <td style="border: 3px solid black; padding: 8px;">
+                    <a href="{{ url_for('course_details', code=course['code']) }}" style="text-decoration:none">{{ course.code }}</a>
+                </td>
+                <td style="border: 3px solid black; padding: 8px;">{{ course.name }}</td>
+                <td style="border: 3px solid black; padding: 8px;">
+                    <!-- Add Delete Button -->
+                    <form action="{{ url_for('delete_course', code=course['code']) }}" method="POST">
+                        <button type="submit" style="color: white; background-color: red; border: none; padding: 5px 10px; cursor: pointer;">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,693 @@
+[
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "course-added",
+        "course_code": "MA 103",
+        "course_name": "wqckm"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "MA 103"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "code",
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "course-added",
+        "course_code": "419451",
+        "course_name": "1974"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "419451"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101"
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course"
+    },
+    {
+        "event": "course-added",
+        "course_code": "ME 209",
+        "course_name": "Jatin"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0009989738464355469
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0019981861114501953
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.001992464065551758
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "code",
+            "name"
+        ]
+    },
+    {
+        "event": "course-added",
+        "course_code": "ME 299",
+        "course_name": "Name",
+        "processing_time": 0.002479076385498047
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 4,
+        "processing_time": 0.019593477249145508
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 4,
+        "processing_time": 0.0009987354278564453
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "ME 299"
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "ME 299",
+        "processing_time": 0.00902104377746582
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.002992391586303711
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.001215219497680664
+    },
+    {
+        "event": "course-added",
+        "course_code": "jbvf",
+        "course_name": "jbesq",
+        "processing_time": 0.006174802780151367
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 4,
+        "processing_time": 0.015517234802246094
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "jbvf"
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "jbvf",
+        "processing_time": 0.006539106369018555
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0019991397857666016
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.001001119613647461
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS 203",
+        "processing_time": 0.0009980201721191406
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS 203",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0009975433349609375
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0020151138305664062
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.002123594284057617
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0010027885437011719
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0009975433349609375
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0011773109436035156
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0010001659393310547
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.001065969467163086
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0009291172027587891
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.000993967056274414
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0010004043579101562
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0010030269622802734
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.020943641662597656
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.00099945068359375
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0014872550964355469
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0019974708557128906
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0010175704956054688
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.001001119613647461
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.027332782745361328
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.002000093460083008
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/"
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0019943714141845703
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0012612342834472656
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0011343955993652344
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.001058816909790039
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0009996891021728516
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.001157999038696289
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0009992122650146484
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0020148754119873047
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0009992122650146484
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0019943714141845703
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    }
+]
