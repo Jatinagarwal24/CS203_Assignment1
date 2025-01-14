@@ -936,5 +936,97 @@
         "method": "GET",
         "url": "http://127.0.0.1:5000/add_course",
         "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.001001119613647461
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "code",
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "instructor"
+        ]
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0009877681732177734
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "code",
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "code",
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "instructor"
+        ]
     }
 ]

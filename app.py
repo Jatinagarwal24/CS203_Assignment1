@@ -9,6 +9,7 @@ from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.exporter.jaeger.thrift import JaegerExporter
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
+from opentelemetry.trace.status import StatusCode
 from opentelemetry.trace import SpanKind
 
 # Flask App Initialization
@@ -128,8 +129,15 @@ def add_course():
             # Validate required fields
             missing_fields = [field for field in ['code', 'name', 'instructor'] if not course[field]]
             if missing_fields:
+                error_message = f"The following required fields are missing: {', '.join(missing_fields)}"
                 logger.warning(json.dumps({"event": "add-course-error", "missing_fields": missing_fields}))
-                flash(f"The following required fields are missing: {', '.join(missing_fields)}", "error")
+                
+                # Add error details to Jaeger span
+                span.set_status(StatusCode.ERROR, error_message)
+                span.record_exception(ValueError(error_message))
+                span.set_attribute("error.missing_fields", ', '.join(missing_fields))
+                
+                flash(error_message, "error")
                 return render_template('add_course.html')
 
             save_courses(course)
