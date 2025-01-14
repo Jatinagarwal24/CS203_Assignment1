@@ -122,8 +122,7 @@ def add_course():
                 'schedule': request.form['schedule'].strip(),
                 'classroom': request.form['classroom'].strip(),
                 'prerequisites': request.form['prerequisites'].strip(),
-                'grading': request.form['grading'].strip(),
-                'description': request.form['description'].strip()
+                'grading': request.form['grading'].strip()
             }
 
             # Validate required fields

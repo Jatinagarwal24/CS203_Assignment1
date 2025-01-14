@@ -45,16 +45,20 @@ footer {
 .alert.error {
     color: red;
 }
-.sub{
+
+.sub {
+    width: 100%;
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
     text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
-.sub:hover{
-    background-color: lightskyblue;
-  
-}
+
+
 label{
     font-weight: bold;
 }
@@ -74,3 +78,17 @@ label{
     
 }
 
+.course-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}

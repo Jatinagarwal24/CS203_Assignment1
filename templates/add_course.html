@@ -8,30 +8,42 @@
 </head>
 <body>
     <h1 style="text-align:center; text-decoration: solid; color:lightskyblue;font-weight: bold;">Add a New Course</h1>
-    <form method="post">
-        <label for="code">Course Code:</label>
-        <input type="text" id="code" name="code" required>
-        <br>
-        <br>
-        <label for="name">Course Name:</label>
-        <input type="text" id="name" name="name" required><br> <br>
-        <label for="instructor">Instructor:</label>
-        <input type="text" id="instructor" name="instructor"><br> <br>
-        <label for="semester">Semester:</label>
-        <input type="text" id="semester" name="semester"><br> <br>
-        <label for="schedule">Schedule:</label>
-        <input type="text" id="schedule" name="schedule"><br> <br>
-        <label for="classroom">Classroom:</label>
-        <input type="text" id="classroom" name="classroom"><br> <br>
-        <label for="prerequisites">Prerequisites:</label>
-        <input type="text" id="prerequisites" name="prerequisites"><br> <br>
-        <label for="grading">Grading:</label>
-        <input type="text" id="grading" name="grading"><br> <br>
-        <label for="description">Description:</label>
-        <textarea id="description" name="description"></textarea><br>
-        <input type="submit" value="Add Course" class="sub">
+    <form method="post" class="course-form">
+        <div class="form-row">
+            <label for="code">Course Code:</label>
+            <input type="text" id="code" name="code" required>
+        </div>
+        <div class="form-row">
+            <label for="name">Course Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+            <label for="instructor">Instructor:</label>
+            <input type="text" id="instructor" name="instructor">
+        </div>
+        <div class="form-row">
+            <label for="semester">Semester:</label>
+            <input type="text" id="semester" name="semester">
+        </div>
+        <div class="form-row">
+            <label for="schedule">Schedule:</label>
+            <input type="text" id="schedule" name="schedule">
+        </div>
+        <div class="form-row">
+            <label for="classroom">Classroom:</label>
+            <input type="text" id="classroom" name="classroom">
+        </div>
+        <div class="form-row">
+            <label for="prerequisites">Prerequisites:</label>
+            <input type="text" id="prerequisites" name="prerequisites">
+        </div>
+        <div class="form-row">
+            <label for="grading">Grading:</label>
+            <input type="text" id="grading" name="grading">
+        </div>
+       <input type="submit" value="Add Course" class="sub">
     </form>
-    <a href="{{ url_for('index') }}">Back to Home</a>
+   
 </body>
 {% endblock %}
 </html>

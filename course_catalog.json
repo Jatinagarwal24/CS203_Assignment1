@@ -20,16 +20,5 @@
         "prerequisites": "Basic Python, Linux",
         "grading": "50% Assignment, 50% Quiz",
         "description": ""
-    },
-    {
-        "code": "ME 209",
-        "name": "Jatin",
-        "instructor": "N Ramakrishnan",
-        "semester": "Fall 2025",
-        "schedule": "tues,friday",
-        "classroom": "AB 7/209",
-        "prerequisites": "nothing",
-        "grading": "20% midsem,20%endsem",
-        "description": "majdoori"
     }
 ]

@@ -689,5 +689,252 @@
         "method": "GET",
         "url": "http://127.0.0.1:5000/",
         "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.020900726318359375
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.001003265380859375
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 3,
+        "processing_time": 0.0
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "ME 209"
+    },
+    {
+        "event": "course-deleted",
+        "course_code": "ME 209",
+        "processing_time": 0.01199030876159668
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.014653921127319336
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.0009930133819580078
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0009984970092773438
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0009992122650146484
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.0009911060333251953
+    },
+    {
+        "event": "course-details-viewed",
+        "course_code": "CS101",
+        "processing_time": 0.0010001659393310547
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.0010089874267578125
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.00261688232421875
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.0009832382202148438
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.001003265380859375
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.001005411148071289
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.004512786865234375
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.002992868423461914
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "code",
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "add-course-error",
+        "missing_fields": [
+            "name",
+            "instructor"
+        ]
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0009996891021728516
+    },
+    {
+        "event": "index-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/",
+        "processing_time": 0.0
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.00099945068359375
+    },
+    {
+        "event": "catalog-page",
+        "method": "GET",
+        "course_count": 2,
+        "processing_time": 0.0010008811950683594
+    },
+    {
+        "event": "add-course-page",
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/add_course",
+        "processing_time": 0.0
     }
 ]
